@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "frameworkfusion"
+version = "0.1.0"
+description = "This tool use API OpenCRE to compare frameworks, example ISO 27001, OWASP SAMM and more."
+authors = ["Cristiano Henrique dos Santos <cristianovisk@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.13.1"
+opencre-lib = "^0.1.2"
+rich = "^13.9.4"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+
+
+[tool.poetry.scripts]
+framework_fusion = "framework_fusion.fusion:app"
+
+[tool.poetry.urls]
+"Documentation" = "https://github.com/cristianovisk/FrameworkFusion/blob/main/README.md"
+"Code" = "https://github.com/cristianovisk/FrameworkFusion"
+"Bug Tracker" = "https://github.com/cristianovisk/FrameworkFusion/issues"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
