@@ -16,7 +16,7 @@ openpyxl = "^3.1.5"
 
 
 [tool.poetry.scripts]
-framework_fusion = "framework_fusion.fusion:app"
+framework_fusion = "frameworkfusion.fusion:app"
 
 [tool.poetry.urls]
 "Documentation" = "https://github.com/cristianovisk/FrameworkFusion/blob/main/README.md"
