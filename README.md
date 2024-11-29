@@ -1,3 +1,5 @@
+<img title="a title" alt="Alt text" src="images/logo_frameworkfusion_ai.svg">
+
 # FrameworkFusion
 
 FrameworkFusion is a tool designed to leverage the [OpenCRE Library](https://github.com/cristianovisk/opencre_lib) to correlate and visualize relationships between security frameworks mapped in the [OpenCRE](https://www.opencre.org/) database. It aims to simplify the task of understanding compliance overlaps and aligning security controls across multiple frameworks.
